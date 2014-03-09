@@ -9,8 +9,8 @@ Description
 -----------
 Permet de compresser un fichier avec l'algorithme de Huffman. La table de compression est affichée à la console et le fichier compressé est enregistré dans un fichier du même nom avec l'extension .hf
 
-Syntaxe :  ./Huffman.pl   adresseFichier
-  - adresseFichier : Adresse du fichier à compresser
+**Syntaxe :**  ./Huffman.pl   adresseFichier
+* **adresseFichier :** Adresse du fichier à compresser
 
 Structure des données
 ---------------------
@@ -18,7 +18,7 @@ Dans notre cas et étant donné qu'il ne s'agit pas de l'algorithme dynamique de
 
 Choix du langage de programmation
 ---------------------------------
-Le PERL a été choisi pour plusieurs raisons, tout d'abord car les structures de données dont nous avons besoin existent dans le langage et sont aisées à manipuler, ensuite car le langage permet de gérer facilement toutes les tâches liées à la manipulation de chaînes de caractères et enfin il n'y a pas de limitation sur la taille des données ou de leur contenu.
+PERL a été choisi pour plusieurs raisons, tout d'abord car les structures de données dont nous avons besoin existent dans le langage et sont aisées à manipuler, ensuite car le langage permet de gérer facilement toutes les tâches liées à la manipulation de chaînes de caractères et enfin il n'y a pas de limitation sur la taille des données ou de leur contenu.
 
 Stockage des données compressées
 --------------------------------
@@ -28,7 +28,7 @@ Evaluation par rapport aux autres compressions
 ----------------------------------------------
 Le programme a été évalué avec un grand fichier texte (Lorem Ipsum à 15 paragraphes)
 
-* Taille initiale : 9'325 octets
-* Taille compressée : 4'943 octets (A noter que la table de compression n'est pas incluse)
-* Taille Zip : 3'161 octets
-* Taille 7Z : 3'112 octets
+* **Taille initiale :** 9'325 octets
+* **Taille compressée :** 4'943 octets (A noter que la table de compression n'est pas incluse)
+* **Taille Zip :** 3'161 octets
+* **Taille 7Z :** 3'112 octets
