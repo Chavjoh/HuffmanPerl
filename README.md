@@ -1,4 +1,4 @@
-HuffmanPerl
+ï»¿HuffmanPerl
 ===========
 
 Perl basic implementation of Huffman compression algorithm (in French). 
@@ -6,28 +6,31 @@ Realized during the first year at high school Arc (Switzerland).
 
 Description
 -----------
-Permet de compresser un fichier avec l'algorithme de Huffman. La table de compression est affichée à la console et le fichier compressé est enregistré dans un fichier du même nom avec l'extension .hf
+Permet de compresser un fichier avec l'algorithme de Huffman. La table de compression est affichÃ©e Ã  la console et le fichier compressÃ© est enregistrÃ© dans un fichier du mÃªme nom avec l'extension .hf
 
 Syntaxe :  ./Huffman.pl   adresseFichier
-  - adresseFichier : Adresse du fichier à compresser
+  - adresseFichier : Adresse du fichier Ã  compresser
 
-Structure des données
+Structure des donnÃ©es
 ---------------------
-Dans notre cas et étant donné qu'il ne s'agit pas de l'algorithme dynamique de Huffman, nous pouvons nous passer des arbres. On peut ici utiliser tout simplement des tableaux associatifs (voir l'algorithme du script).
+Dans notre cas et Ã©tant donnÃ© qu'il ne s'agit pas de l'algorithme dynamique de Huffman, nous pouvons nous passer des arbres. On peut ici utiliser tout simplement des tableaux associatifs (voir l'algorithme du script).
 
 Choix du langage de programmation
 ---------------------------------
-Le PERL a été choisi pour plusieurs raisons, tout d'abord car les structures de données dont nous avons besoin existent dans le langage et sont aisées à manipuler, ensuite car le langage permet de gérer facilement toutes les tâches liées à la manipulation de chaînes de caractères et enfin il n'y a pas de limitation sur la taille des données ou de leur contenu.
+Le PERL a Ã©tÃ© choisi pour plusieurs raisons, tout d'abord car les structures de donnÃ©es dont nous avons besoin existent dans le langage et sont aisÃ©es Ã  manipuler, ensuite car le langage permet de gÃ©rer facilement toutes les tÃ¢ches liÃ©es Ã  la manipulation de chaÃ®nes de caractÃ¨res et enfin il n'y a pas de limitation sur la taille des donnÃ©es ou de leur contenu.
 
-Stockage des données compressées
+Stockage des donnÃ©es compressÃ©es
 --------------------------------
-Lors de l'utilisation du script, la table de compression est affichée à la console et le fichier une fois compressé est enregistré sous le même nom mais avec l'extension .hf. Il serait aussi possible d'enregistrer la table de compression dans un autre fichier, mais pour plus de simplicité et de facilité d'utilisation, la table de compression doit être sauvegardée dans le même fichier que le contenu du fichier compressé en séparant ce contenu de la table de compression.
+Lors de l'utilisation du script, la table de compression est affichÃ©e Ã  la console et le fichier une fois compressÃ© est enregistrÃ© sous le mÃªme nom mais avec l'extension .hf. Il serait aussi possible d'enregistrer la table de compression dans un autre fichier, mais pour plus de simplicitÃ© et de facilitÃ© d'utilisation, la table de compression doit Ãªtre sauvegardÃ©e dans le mÃªme fichier que le contenu du fichier compressÃ© en sÃ©parant ce contenu de la table de compression.
 
 Evaluation par rapport aux autres compressions
 ----------------------------------------------
-Le programme a été évalué avec un grand fichier texte (Lorem Ipsum à 15 paragraphes)
+Le programme a Ã©tÃ© Ã©valuÃ© avec un grand fichier texte (Lorem Ipsum Ã  15 paragraphes)
 
 Taille initiale : 	9'325 octets
-Taille compressée :	4'943 octets (A noter que la table de compression n'est pas incluse)
+
+Taille compressÃ©e :	4'943 octets (A noter que la table de compression n'est pas incluse)
+
 Taille Zip :		3'161 octets
+
 Taille 7Z :			3'112 octets
