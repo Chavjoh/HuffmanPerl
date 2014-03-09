@@ -2,7 +2,8 @@
 ===========
 
 Perl basic implementation of Huffman compression algorithm (in French). 
-Realized during the first year at high school Arc (Switzerland).
+
+Realized during the first year at [high school Arc](http://www.he-arc.ch) (Switzerland).
 
 Description
 -----------
@@ -21,16 +22,13 @@ Le PERL a été choisi pour plusieurs raisons, tout d'abord car les structures d
 
 Stockage des données compressées
 --------------------------------
-Lors de l'utilisation du script, la table de compression est affichée à la console et le fichier une fois compressé est enregistré sous le même nom mais avec l'extension .hf. Il serait aussi possible d'enregistrer la table de compression dans un autre fichier, mais pour plus de simplicité et de facilité d'utilisation, la table de compression doit être sauvegardée dans le même fichier que le contenu du fichier compressé en séparant ce contenu de la table de compression.
+Lors de l'utilisation du script, la table de compression est affichée à la console et le fichier une fois compressé est enregistré sous le même nom mais avec l'extension .hf. Il serait aussi possible d'enregistrer la table de compression dans un autre fichier, celle-ci doit être sauvegardée dans le même fichier que le contenu du fichier compressé en séparant ce contenu de la table de compression.
 
 Evaluation par rapport aux autres compressions
 ----------------------------------------------
 Le programme a été évalué avec un grand fichier texte (Lorem Ipsum à 15 paragraphes)
 
-Taille initiale : 	9'325 octets
-
-Taille compressée :	4'943 octets (A noter que la table de compression n'est pas incluse)
-
-Taille Zip :		3'161 octets
-
-Taille 7Z :			3'112 octets
+* Taille initiale : 9'325 octets
+* Taille compressée : 4'943 octets (A noter que la table de compression n'est pas incluse)
+* Taille Zip : 3'161 octets
+* Taille 7Z : 3'112 octets
