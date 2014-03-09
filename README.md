@@ -1,7 +1,7 @@
 ﻿HuffmanPerl
 ===========
 
-Perl basic implementation of Huffman compression algorithm (in French). 
+Perl basic implementation of Huffman compression algorithm (in French) under Apache 2.0 license. 
 
 Realized during the first year at [high school Arc](http://www.he-arc.ch) (Switzerland).
 
